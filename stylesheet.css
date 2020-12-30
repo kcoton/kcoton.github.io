@@ -1,0 +1,173 @@
+/* main body and background */
+body {
+  background-image: url("kinda-jean.png");
+}
+
+.main {
+  margin: auto;
+  position: relative;
+  top: 40px;
+  background-color: white;
+  height: 800px;
+  width: 1000px;
+  border-radius: 10px;
+  border: 0.3px solid #8A8A8A;
+}
+
+main {
+  position: relative;
+  left: 95px;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  color: #5B5B5C;
+  padding-left: 50px;
+  padding-right: 250px;
+  line-height: 200%;
+}
+
+b {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    color: #5B5B5C;
+    font-weight: normal;
+    background-color: #FCDE66;
+}
+
+a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  text-decoration: underline;
+  color: #5B5B5C;
+}
+
+.body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  color: #5B5B5C;
+  padding-left: 50px;
+  padding-right: 250px;
+  padding-top: 75px;
+  padding-bottom: 1px;
+}
+
+.profile {
+  float: right;
+  border-radius: 50%;
+  height: 150px;
+}
+
+/* top header styling with buttons */
+header {
+  display: flex;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: linear-gradient(#E3E2E3, #CBCACB);
+}
+
+.header {
+  margin: auto;
+  padding-top: 6px;
+  padding-bottom: 7px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.dot1 {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  height: 12px;
+  width: 12px;
+  background-color: #FF6159;
+  border-radius: 50%;
+  border: 0.3px solid #E45951;
+  z-index: 2;
+}
+
+.dot2 {
+  position: absolute;
+  top: 10px;
+  left: 35px;
+  height: 12px;
+  width: 12px;
+  background-color: #FFBD2E;
+  border-radius: 50%;
+  border: 0.3px solid #E3AA40;
+  z-index: 2;
+}
+
+.dot3 {
+  position: absolute;
+  top: 10px;
+  left: 55px;
+  height: 12px;
+  width: 12px;
+  background-color: #29C93F;
+  border-radius: 50%;
+  border: 0.3px solid #3EB33F;
+  z-index: 2;
+}
+
+/* bottom navigation with icons */
+nav {
+  justify-content: center;
+  display: flex;
+  width: 500px;
+  position: absolute;
+  left: 250px;
+  top: 668px;
+  background-color: #F0F0F0;
+  z-index: 1
+}
+
+a.links {
+  font-size: 15px;
+  text-transform: lowercase;
+  letter-spacing: -0.5px;
+  font-family: monospace;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #5B5B5C;
+  opacity: 80%;
+}
+
+a.links:hover {
+  background-color: white;
+  opacity: 100%;
+}
+
+.icons {
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+/* footer */
+footer {
+  position: absolute;
+  top: 785px;
+  display: flex;
+  text-indent: 820px;
+  width: 1000px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #F0F0F0;
+  z-index: 0
+  font-size: 13px;
+  text-transform: lowercase;
+  letter-spacing: -0.5px;
+  font-family: monospace;
+  font-weight: bolder;
+  color: #5B5B5C;
+  opacity: 50%
+}
