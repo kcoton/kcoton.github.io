@@ -70,6 +70,20 @@ a {
   height: 150px;
 }
 
+/** other page **/
+ul {
+  list-style-position: inside;
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  color: #5B5B5C;
+}
+
+ul li {
+  padding: 12px 170px;
+}
+
 /* projects page */
 .projects {
   font-family: Helvetica, Arial, sans-serif;
