@@ -29,6 +29,13 @@ p {
   line-height: 200%;
 }
 
+.school {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  background-color: #FFFFFF;
+  color: #FC6479;
+}
+
 b {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 18px;
@@ -61,6 +68,44 @@ a {
   float: right;
   border-radius: 50%;
   height: 150px;
+}
+
+/* projects page */
+.projects {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  color: #5B5B5C;
+  padding-top: 75px;
+  line-height: 200%;
+}
+
+.project-name {
+  text-align: center;
+  width: 280px;
+  border: 1px solid lightblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.project-content {
+  text-align: center;
+  width: 500px;
+  height: 100px;
+  border: 1px solid pink;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bold-project {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  color: #5B5B5C;
+  font-weight: normal;
+  background-color: #E0F6FC;
 }
 
 /* top header styling with buttons */
